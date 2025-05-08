@@ -5,6 +5,7 @@
 # Ignorowanie konkretnych plików SQL
 /params/sql.py
 /params/sql.py.bak
+*.pyproj
 
 # Standardowe gówno pythonowe
 __pycache__/

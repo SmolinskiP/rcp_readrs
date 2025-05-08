@@ -24,7 +24,6 @@ startrcp.bat
 ├── img/                  # Folder z grafikami (ignorowany w repo)
 │
 ├── lib/                  # Biblioteki aplikacji
-│   ├── __pycache__/
 │   ├── checkentry.py     # Weryfikacja odbić
 │   ├── drawing.py        # Interfejs graficzny
 │   ├── init_envs.py      # Inicjalizacja zmiennych środowiskowych
@@ -32,21 +31,16 @@ startrcp.bat
 │   └── wake_pc.py.bak
 │
 ├── params/               # Parametry konfiguracyjne
-│   ├── __pycache__/
-│   ├── serial.cpython-*.pyc  # Skompilowane pliki konfiguracji
-│   ├── sql.cpython-*.pyc     # Skompilowane pliki SQL
 │   ├── serial.py         # Konfiguracja portu szeregowego
 │   ├── serial.py.bak
 │   ├── sql.py            # Konfiguracja SQL (ignorowana w repo)
 │   └── sql.py.bak
 │
 ├── sql/                  # Funkcje bazy danych
-│   ├── __pycache__/
 │   ├── functions.py      # Funkcje SQL
 │   └── functions.py.bak
 │
 ├── .gitignore
-├── RCP_Reworked.pyproj   # Plik projektu
 ├── readrs.py             # Obsługa czytnika
 ├── startrcp.bat          # Skrypt startowy
 └── time_sync.bat         # Skrypt synchronizacji czasu
